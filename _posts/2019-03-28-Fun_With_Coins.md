@@ -9,7 +9,7 @@ Today I wanted to share an intersting puzzle, which is not directly related to c
 It's more of a brain burner, but I enjoyd solving it. 
 
 <h2>Problem:</h2>
-We have 12 golden coins and 12 silver coins. One of them is fake and we don't even know if it's silver or golden. Moreover, we don't know what is heavier - golden coins or silver coins. But we have scales that can tell us if something is heavier or not. 
+We have 12 golden coins and 12 silver coins. One of them is fake and we don't even know if it's silver or golden. Moreover, we don't know what is heavier - golden coins or silver coins. But we have scales that can tell us if something is heavier or not. We also know that fake golden coin is lighter than genuine golden coin, and fake silver coin is heavier than genuine silver coin.
 Question: what is the minimal number of operations required to find the fake? 
 
 Answer: 3
