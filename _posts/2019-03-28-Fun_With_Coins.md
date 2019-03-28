@@ -16,7 +16,7 @@ Answer: 3
 
 Wait, but how? 
 
-<h2>Explanation:<h2>
+<h2>Explanation:</h2>
 
 Note: I will be very detailed, because I remember how annoying it is when someone skips the steps!
 
