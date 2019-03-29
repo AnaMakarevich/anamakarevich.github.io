@@ -25,10 +25,12 @@ are two branches and after computing all the orderings, we should multiply it by
 that these three are ordered. Let's call them A B C. The remaining stones are D and E. 
 Then the following orderings are possible: 
 
-1) ABC act together as one, then we have 3! ways to order ABC, D and E. -> total 6 orderings 
-2) There is exactly one stone inside ABC: AxBC or ABxC, where x is in {D,E}. And there are two ways to order them. So total: 2*2*2 = 8
-3) There is exactly one stone between A and B and B and C: AxBxC, x in {D,E}. It gives us 2 combinations
-4) There are exactly two stones inside ABC: AxyBC or ABxyC, x,y in {D,E}. 2 ways to sort xy, 2 ways to place xy, total 4
+<ol>
+  <li> ABC act together as one, then we have 3! ways to order ABC, D and E. -> total 6 orderings </li>
+<li> There is exactly one stone inside ABC: AxBC or ABxC, where x is in {D,E}. And there are two ways to order them. So total: 2*2*2 = 8</li>
+<li>There is exactly one stone between A and B and B and C: AxBxC, x in {D,E}. It gives us 2 combinations</li>
+<li>There are exactly two stones inside ABC: AxyBC or ABxyC, x,y in {D,E}. 2 ways to sort xy, 2 ways to place xy, total 4</li>
+</ol>
 
 Summing up from 1) to 4): 6+8+2+4 = 20. And we also have to multiply by 2 for two branches we mentioned in the beginning. Total - 40 
 ways to order our stones after the second step. 40 is between 2^5 and 2^6. So the lower bound for 40 combinations is 6 in addition
