@@ -30,8 +30,7 @@ Then the following orderings are possible: </p>
 </ol>
 </p>
 <p>Summing up from 1) to 4): 6+8+2+4 = 20. And we also have to multiply by 2 for two branches we mentioned in the beginning. Total - 40 
-ways to order our stones after the second step. 40 is between 2^5 and 2^6. So the lower bound for 40 combinations is 6 in addition
-to these two steps. So, **at least** 8 steps are required to sort 5 stones in this scenario, and it's no possible to do it in 7. 
+ways to order our stones after the second step. 40 is between 2^5 and 2^6. We need 6 bits to encode 40 different combinations. And we need 6 bits to guess the order of the stones and distinct between any two possible combinations. So the lower bound for 40 combinations is 6 steps. Add to this 2 steps we already made. So, **at least** 8 steps are required to sort 5 stones in this scenario, and it's no possible to do it in 7. 
   <br />
   QED.
 </p>
