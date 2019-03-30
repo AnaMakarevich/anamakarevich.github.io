@@ -22,7 +22,7 @@ are two branches and after computing all the orderings, we should multiply it by
 that these three are ordered. Let's call them A B C. The remaining stones are D and E. 
 Then the following orderings are possible: </p>
 <p>
-<ol>
+<ol class="posts">
   <li> ABC act together as one, then we have 3! ways to order ABC, D and E. -> total 6 orderings </li>
 <li> There is exactly one stone inside ABC: AxBC or ABxC, where x is in {D,E}. And there are two ways to order them. So total: 2*2*2 = 8</li>
 <li>There is exactly one stone between A and B and B and C: AxBxC, x in {D,E}. It gives us 2 combinations</li>

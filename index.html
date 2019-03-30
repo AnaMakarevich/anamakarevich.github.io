@@ -2,11 +2,22 @@
 layout: default
 title: SuperCatman's Playground
 ---
-<div class="blurb">
+<div>
 	<h1>Welcome to my playgroud!</h1>
-	<p>Hi, everyone! I'm Ana (aka SuperCatman). I've recently graduated with a degree in Computer Science and now preparing for the Master's degree and studying Data Science.</p>
-	<p>I think maths is the most important thing in data science and I'm taking time (even turning down really good offers) to close the gap I discovered when trying to read advanced books.</p>
-	<p>I'm interested in applying data science in natural and social sciences.</p> 
-	<p>I am also concerned about data ethics and I do believe the way the data is used today should be changed.</p> 		
+	<p>There is not much here yet. The main content is in the blog, and this site is actually for the sake of the blog. N reasons why I like this blog:
+		<ul class="posts">
+			<li>- It's not a social network</li>
+			<li>- No one is reading</li>
+			<li>- I still can post</li>
+			<li>- I like Github</li>
+		</ul>
+	</p>
 </p>
-</div><!-- /.blurb -->
+<h2>Most recent posts</h2>
+	<ul class="posts">
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+</div>
+</div>
